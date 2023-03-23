@@ -1,0 +1,98 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+    color: #313235;
+  }
+  
+  body {
+    width: 90%;
+    margin: 20px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 16px 50px;
+    background: #2F4F4F;
+    border-bottom: 20px solid #191970;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0 0 .4px;
+    color: white;
+    background-color: #191970;
+    padding: 5px 10px;
+  }
+  
+  h2 {
+    margin-top: 0px;
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #5F9EA0;
+    transition-duration: 0.4s;
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0077B5; 
+    color: white;
+  }
+  
+  .exercicios {
+    border: none;
+    border-radius: 30px;
+    background-color: #CDCDCD;
+    width: 93%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+      }
+  
+  .textoClicavel {
+    font-size: 20px;
+    font-weight: bold;
+    color: #191970;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+  }
+  .textoClicavel:hover {
+    color: red;
+  }
+  
+  #quadrado {
+    background-image: linear-gradient(to left, #00CED1 , yellow);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  #farol { 
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+  }
+  input {
+    font: inherit;
+  }
+  input:focus {
+    background-color: #191970;
+    color: white;
+  }
+  
