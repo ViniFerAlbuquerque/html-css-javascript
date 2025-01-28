@@ -13,6 +13,7 @@ html {
     background: #2F4F4F;
     border-bottom: 20px solid #191970;
     text-align: center;
+    background-attachment: local, scroll;
   }
   
   h1 {
